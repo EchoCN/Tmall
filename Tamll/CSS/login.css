@@ -1,0 +1,86 @@
+.login-nav1{
+    width: 1200px;
+    margin: 20px auto;
+}
+
+.login{
+    width: 1200px;
+    margin: 20px auto;
+}
+
+.login input{
+    width: 300px;
+    height: 40px;
+}
+
+
+.login-form{
+    width: 370px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    margin-left: 774px;
+    margin-top: 170px;
+    display: block;
+    left: 0;
+    top: 0;
+}
+
+.login-form1{
+    display: block;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form-login{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.form-login-pwd{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.about-form{
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.about-form span{
+    margin-left: 60px;
+    color: #999;
+}
+
+.about-form span:hover{
+    color: #C40000;
+    cursor: pointer;
+}
+
+.about-form a{
+    text-decoration: none;
+}
+
+.form-button1{
+    margin-left: 20px;   
+    margin-bottom: 20px;
+    width: 320px;
+    height: 30px;
+    border: 1px solid #C40000;
+    background-color: #C40000;
+    border-radius: 4%;
+    color: white;
+    font-weight: bold;
+}
+
+.span-form{
+    display: block;
+    margin-left: 20px; 
+    margin-bottom: 20px;
+    color: #C40000;
+}

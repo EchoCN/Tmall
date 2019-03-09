@@ -1,0 +1,33 @@
+.register-form tr td{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.register-form tr td input{
+    width: 180px;
+    height: 30px;
+}
+
+.register-form{
+    margin-left: 180px;
+}
+
+.span2{
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.register-form button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 36px;
+    border: 1px solid #c40000;
+    background-color: #c40000;
+    color: white;
+    border-radius: 4%;
+}

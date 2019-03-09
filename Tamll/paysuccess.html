@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="http://how2j.cn/study/css/bootstrap/3.3.6/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/simple.css">
+    <title>Document</title>
+    <style>
+        body{
+            height: 1111px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="top">
+        <a href="#nowhere">
+             <span class="glyphicon glyphicon-home redColor"></span>
+            天猫首页
+        </a>
+        <span>喵，欢迎来天猫</span>
+        <a href="#nowhere">请登入</a>
+        <a href="#nowhere">免费注册</a>
+        
+        <span class="right">
+            <a href="#nowhere">我的订单</a>
+            <span class="glyphicon glyphicon-home redColor"></span>
+                <a href="#nowhere">购物车<strong>0</strong>件</a>
+        </span>
+    </nav>
+    <div class="pay-success-img">
+        <img class="left-img" src="images/site/simpleLogo.png">
+        <img class="right-img" src="images/site/comformPayFlow.png">
+    </div>
+    <div class="cl"></div>
+    <div class="address">
+        <span>输入收货地址</span>
+    </div>
+    <div class="address-info">
+        <table>
+            <tr>
+                <td>
+                    <span>详细地址</span>
+                    <em>*</em>
+                </td>
+                <td>
+                    <textarea placeholder="建议您如实填写地址，例如收货街道号码，收件人，楼层房间号码等相关信息"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span>邮政编码</span>
+                </td>
+                <td>
+                    <input type="text" placeholder="如果您不清楚邮递区号，请填写000000">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span>收货人姓名</span>
+                    <em>*</em>
+                </td>
+                <td>
+                    <input type="text" placeholder="长度不超过25个字符">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span>手机号码</span>
+                    <em>*</em>
+                </td>
+                <td>
+                    <input type="text" placeholder="请输入11位手机号码">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="cl"></div>
+    <div class="comfir-pay">
+        <span>确认订单信息</span>
+    </div>
+    <div class="comfir-pay-shop">
+        <table>
+            <tr>
+                <td>
+                    <img src="images/site/confirmOrderTmall.png">
+                    <span>店铺：天猫店铺</span>
+                    <img src="images/site/wangwang.png">
+                </td>
+                <td>
+                    <span class="tr2"></span>
+                </td>
+                <td class="tr3">
+                    单价
+                </td>
+                <td>
+                    <span class="tr3">数量</span>
+                </td>
+                <td>
+                    <span class="tr3">小计</span>
+                </td>
+                <td>
+                    <span class="tr3">配送方式</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img class="confirm-img" src="images/site/4206.jpg">
+                </td>
+                <td class="table-tr">
+                    <a href="#"><span>Philips/飞利浦 HR1897/30破壁微榨原汁机 多功能家用果汁榨汁机</span></a>
+                    <span><img src="images/site/renzheng.png"></span>
+                </td>
+                <td>
+                    <span class="tr-price">￥3,514.05</span>
+                </td>
+                <td>
+                    <span class="tr-price">2</span>
+                </td>
+                <td>
+                    <span class="tr-price tr-price-red">￥7,028.10</span>
+                </td>
+                <td>
+                    <input type="radio">普通配送
+                    <select>
+                        <option>快递 免邮费</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img class="confirm-img" src="images/site/4206.jpg">
+                </td>
+                <td class="table-tr">
+                    <a href="#"><span>Philips/飞利浦 HR1897/30破壁微榨原汁机 多功能家用果汁榨汁机</span></a>
+                    <span><img src="images/site/renzheng.png"></span>
+
+                </td>
+                <td>
+                    <span class="tr-price">￥3,123.05</span>
+                </td>
+                <td>
+                    <span class="tr-price">1</span>
+                </td>
+                <td>
+                    <span class="tr-price tr-price-red">￥4,238.10</span>
+                </td>
+                <td>
+                    <input type="radio">普通配送
+                    <select>
+                        <option>快递 免邮费</option>
+                    </select>
+                </td>
+                </tr>
+        </table>
+    </div>
+    <div class="cl"></div>
+    <div class="info-about-pay">
+        <span>给卖家留言:</span><input type="text" placeholder="选填：对本次交易的说明（建议写已和卖家）">
+        <span class="right-span">店铺合计(含运费): ￥9,152.25</span>
+    </div>
+    <div class="ready-pay">
+        <span>实付款： <span class="ready-pay-red">￥9,152.25</span></span>
+    </div>
+    <div class="cl"></div>
+    <div class="pay-button">
+        <button>提交订单</button>
+    </div>
+</body>
+</html>
